@@ -1,0 +1,21 @@
+`default_nettype none
+
+module instruction_splitter (
+	input  wire [31:0] data,
+	output wire [2:0]  command_group,
+	output wire [2:0]  move_command,
+	output wire        arg_type_1,
+	output wire [7:0]  bit_num,
+	output wire        arg_type_2,
+	output wire [7:0]  destination_location,
+);
+
+	assign command_group = data [31:29];
+	assign move_command = data [28:26];
+	assign arg_type_1 = data [25];
+	assign bit_num = data [24:17];
+	assign sp
+
+
+
+endmodule 

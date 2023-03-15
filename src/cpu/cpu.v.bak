@@ -1,0 +1,30 @@
+`include "cpu_definitions.vh"
+module cpu (
+	// System
+	input wire clk,
+	input wire enable,
+	input wire resetn,
+	
+	// Intructions
+	input wire [31:0] instruction,
+	output reg [7:0] instruction_pointer,
+	
+	// Inputs
+	input wire [7:0] din,
+	input wire [3:0] gpi,
+	
+	// Outputs
+	output wire [7:0] reg_dout,
+	output wire [7:0] reg_gout,
+	output wire [7:0] reg_flag
+);
+	
+	assign reg_dout = instruction[24 -:8];
+	assign reg_gout = 8'b1000_0000; // Turn on dval
+	
+	always @(posedge clk or negedge resetn)
+		if (!resetn)
+		instruction_pointer <= 8'd0;
+	else if (enable)
+		instruction_pointer <= instruction_pointer+1;
+endmodule

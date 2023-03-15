@@ -1,0 +1,18 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules/sseg_encoder.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules/disp_decimal.v}
+
+vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/simulation {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/simulation/test_disp_decimal.v}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  test_disp_decimal
+
+add wave *
+view structure
+view signals
+run -all

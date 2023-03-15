@@ -1,0 +1,6 @@
+module Counter(input clk, input in, output reg [n-1:0] out = 0);
+	parameter n=1;
+	
+	always @(posedge clk)
+		if (in) out <= out + 1'b1;
+endmodule 

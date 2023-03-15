@@ -1,0 +1,26 @@
+`default_nettype none
+`include "top_level_definitions.vh"
+module top 
+(
+	
+	// Clock 50MHz
+	input	wire		CLOCK_50,             // DE-series 50 MHz clock signal
+	
+	// Inputs
+    input 	wire [9:0] 	SW,        // DE-series switches
+	
+    input 	wire [3:0] 	KEY,       // DE-series pushbuttons
+	
+	// Outputs
+    output 	wire [9:0] 	LEDR,     // DE-series LEDs   
+	
+    output 	wire [6:0] 	HEX0,     // DE-series HEX displays
+    output 	wire [6:0] 	HEX1,
+    output 	wire [6:0] 	HEX2,
+    output 	wire [6:0] 	HEX3,
+    output 	wire [6:0] 	HEX4,
+    output 	wire [6:0] 	HEX5
+);
+
+
+endmodule 

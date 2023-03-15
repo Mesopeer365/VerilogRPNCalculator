@@ -1,0 +1,23 @@
+`default_nettype none
+module soc 
+(
+    input   wire        clk,
+    input   wire        resetn,  
+    input   wire        turbo_mode,
+    
+    // GPIO
+    input   wire [3:0]  gpi,
+    output  wire [5:0]  gpo,
+    
+    // Data Bus
+    input   wire [7:0]  din,
+    output  wire [7:0]  dout,
+    output  wire        dval, 
+    
+    output  wire [3:0]  debug,
+    output  wire [7:0]  ip
+    
+);
+
+
+endmodule

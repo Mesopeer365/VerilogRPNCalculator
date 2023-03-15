@@ -1,0 +1,473 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/simulation/modelsim
+valu
+Z1 !s110 1653544522
+!i10b 1
+!s100 kY16KDS^<6G<U=MB;1Fg;2
+IcWa<T4c=]JR`Pd[`Z3Sm52
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1653216880
+8C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/alu.v
+FC:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/alu.v
+L0 4
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1653544522.000000
+!s107 C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/./cpu_definitions/cpu_definitions.vh|C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu|C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/alu.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu
+Z7 tCvgOpt 0
+vcontroller
+R1
+!i10b 1
+!s100 X7CW2gU8hG>]R=O2`6e;V1
+IjbXz<g^N<m6G:VUOYEkhS3
+R2
+R0
+w1653371240
+8C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/controller.v
+FC:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/controller.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/./cpu_definitions/cpu_definitions.vh|C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu|C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/controller.v|
+!i113 1
+R5
+R6
+R7
+vcounter
+Z8 !s110 1653544521
+!i10b 1
+!s100 @4Xc?>Yz_7:9RHN]`>IFA1
+IG36Z8mcA]b50g4<fzJNQM2
+R2
+R0
+w1652512024
+8C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/counter.v
+FC:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/counter.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z9 !s108 1653544521.000000
+!s107 C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary|C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/counter.v|
+!i113 1
+R5
+Z10 !s92 -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary
+R7
+vcpu
+R1
+!i10b 1
+!s100 7Tl:oGD2]K8dHB[ho`6DN1
+II]LLHPZ8A[]YVWcUS9PNA1
+R2
+R0
+w1653227343
+8C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/cpu.v
+FC:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/cpu.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/./cpu_definitions/cpu_definitions.vh|C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/cpu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu|C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/cpu.v|
+!i113 1
+R5
+R6
+R7
+vdebounce
+Z11 !s110 1653544520
+!i10b 1
+!s100 I4ggSb?3NYmnf`ehYIYIW1
+I0V6j]XJW@JSW1:5JX<Ua[3
+R2
+R0
+w1653454999
+8C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/debounce.v
+FC:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/debounce.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z12 !s108 1653544520.000000
+!s107 C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/debounce.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary|C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/debounce.v|
+!i113 1
+R5
+R10
+R7
+vdisp_decimal
+!s110 1653544519
+!i10b 1
+!s100 TgI>O@BD`PUEM^1_L`TH:3
+IM2AG=[K3_lVkhPi9:;4W61
+R2
+R0
+w1653227202
+8C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules/disp_decimal.v
+FC:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules/disp_decimal.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1653544519.000000
+!s107 C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules/disp_decimal.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules|C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules/disp_decimal.v|
+!i113 1
+R5
+Z13 !s92 -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules
+R7
+vdisp_hex
+R11
+!i10b 1
+!s100 9k]UbjlR8FjT0XEKW5]Lo0
+IWc461D0iR[AHV4z@6j=jz0
+R2
+R0
+w1652627517
+8C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules/disp_hex.v
+FC:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules/disp_hex.v
+L0 1
+R3
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules/disp_hex.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules|C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules/disp_hex.v|
+!i113 1
+R5
+R13
+R7
+venable_gen
+R8
+!i10b 1
+!s100 B>cVQ23_Wbi2^RUc41=Wf3
+I:TkfT1gJLQ9ARoK5GdMA30
+R2
+R0
+w1652512772
+8C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/enable_gen.v
+FC:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/enable_gen.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/enable_gen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary|C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/enable_gen.v|
+!i113 1
+R5
+R10
+R7
+vfalling_edge_detector
+R8
+!i10b 1
+!s100 jKCGjkTaibJ=0An=SFT=?3
+I0@YC>damggS8f0]@F>gHM1
+R2
+R0
+w1653379621
+8C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/falling_edge_detector.v
+FC:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/falling_edge_detector.v
+L0 1
+R3
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/falling_edge_detector.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary|C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/falling_edge_detector.v|
+!i113 1
+R5
+R10
+R7
+vinstruction_memory
+R1
+!i10b 1
+!s100 5OQnZ]N[[f]DQbj74lG@O2
+I71V>YPR6e=V_[M`OmAMO12
+R2
+R0
+w1653376938
+8C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/instruction_memory.v
+FC:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/instruction_memory.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/./cpu/cpu_definitions/cpu_definitions.vh|C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/instruction_memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src|C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/instruction_memory.v|
+!i113 1
+R5
+Z14 !s92 -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src
+R7
+vinstruction_pointer
+R1
+!i10b 1
+!s100 QYB7bl4@Ra9];RCo>R5dM3
+Ij8C3Az>:[=K3On2a]cNX73
+R2
+R0
+w1653543063
+8C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/instruction_pointer.v
+FC:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/instruction_pointer.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/./cpu_definitions/cpu_definitions.vh|C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/instruction_pointer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu|C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/instruction_pointer.v|
+!i113 1
+R5
+R6
+R7
+vinstruction_splitter
+R8
+!i10b 1
+!s100 ;RoAJaj;Kz<60iR_z`1=e2
+I@@Ogma=8n_feLl0ccz1GN3
+R2
+R0
+w1653216807
+8C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/instruction_splitter.v
+FC:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/instruction_splitter.v
+L0 3
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/instruction_splitter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu|C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/instruction_splitter.v|
+!i113 1
+R5
+R6
+R7
+vregister_file
+R1
+!i10b 1
+!s100 NQhmokDM;4mQ24ZHG]7l>2
+InG`NJaihL?`m3BZ7RT_LL2
+R2
+R0
+w1653375178
+8C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/register_file.v
+FC:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/register_file.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/./cpu_definitions/cpu_definitions.vh|C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/register_file.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu|C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/register_file.v|
+!i113 1
+R5
+R6
+R7
+vsnum_to_sseg
+R11
+!i10b 1
+!s100 DD;ORg67HJ]jY3M8c=dTL2
+IA64cX9YU9eeKa[:U71jgU1
+R2
+R0
+w1653227234
+8C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules/snum_to_sseg.v
+FC:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules/snum_to_sseg.v
+L0 1
+R3
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules/snum_to_sseg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules|C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules/snum_to_sseg.v|
+!i113 1
+R5
+R13
+R7
+vsoc
+R1
+!i10b 1
+!s100 5hO0K@55K[g>=O5g5V3z@0
+IP0]Oc_b`PQmd1^7dGYhA?2
+R2
+R0
+w1653227253
+8C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/soc.v
+FC:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/soc.v
+L0 4
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/./cpu/cpu_definitions/cpu_definitions.vh|C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/soc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src|C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/soc.v|
+!i113 1
+R5
+R14
+R7
+vSSeg
+R11
+!i10b 1
+!s100 KYm6<3LUJPTLV4YZ=lDDK1
+IcIEWdZ7T4XF4T>0KbR:m:3
+R2
+R0
+w1652334953
+8C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules/sseg_encoder.v
+FC:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules/sseg_encoder.v
+L0 3
+R3
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules/sseg_encoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules|C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules/sseg_encoder.v|
+!i113 1
+R5
+R13
+R7
+n@s@seg
+vsynchroniser
+R11
+!i10b 1
+!s100 3=^?PfY>Y?^GmU<X0oMjf0
+IFeng]YO`6LD[X]FInK0i`0
+R2
+R0
+w1652940880
+8C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/synchroniser.v
+FC:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/synchroniser.v
+L0 1
+R3
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/synchroniser.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary|C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/synchroniser.v|
+!i113 1
+R5
+R10
+R7
+vtest_cpu_early_stage
+!s110 1653544523
+!i10b 1
+!s100 Fc6;58U?<[l81gS?3dR;A0
+IG<WbjI;=`aTR6Q>ziQZ6Q2
+R2
+R0
+w1653544484
+8C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/simulation/test_cpu_early_stage.v
+FC:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/simulation/test_cpu_early_stage.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/simulation/test_cpu_early_stage.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/simulation|C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/simulation/test_cpu_early_stage.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/simulation
+R7
+vtimer
+R8
+!i10b 1
+!s100 IIB9X3KGC5QFG0@UDW7j70
+IRQ?Ib4d@:@A[i<5GUJ=Qa2
+R2
+R0
+Z15 w1653153702
+Z16 8C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/timer.v
+Z17 FC:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/timer.v
+L0 2
+R3
+r1
+!s85 0
+31
+R9
+Z18 !s107 C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/timer.v|
+Z19 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary|C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/timer.v|
+!i113 1
+R5
+R10
+R7
+vtimer_base
+R8
+!i10b 1
+!s100 o[meDzo`LLNfnnn0DF?7c0
+IK94dFmWNg8986SfDS`l?@0
+R2
+R0
+R15
+R16
+R17
+L0 64
+R3
+r1
+!s85 0
+31
+R9
+R18
+R19
+!i113 1
+R5
+R10
+R7
+vtop
+R8
+!i10b 1
+!s100 0dIa3WN:g`V]_QbZa<3M82
+ITibPif[CchbWih?[Ka:F?0
+R2
+R0
+w1653149369
+8C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/top.v
+FC:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/top.v
+L0 3
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/top_level_definitions.vh|C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src|C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/top.v|
+!i113 1
+R5
+R14
+R7

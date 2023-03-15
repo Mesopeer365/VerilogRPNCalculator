@@ -1,0 +1,9 @@
+module timer
+(
+	input wire clk,
+	input wire enable,
+	input wire resetn,
+	input wire sync_resetn,
+	input wire start,
+	output wire done
+);

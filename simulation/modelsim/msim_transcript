@@ -1,0 +1,677 @@
+# Reading C:/Users/Admin/Desktop/Long/Tools/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do computer_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/Users/Admin/Desktop/Long/Tools/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules/disp_decimal.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:52:22 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules/disp_decimal.v 
+# -- Compiling module disp_decimal
+# 
+# Top level modules:
+# 	disp_decimal
+# End time: 15:52:22 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules/snum_to_sseg.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:52:22 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules/snum_to_sseg.v 
+# -- Compiling module snum_to_sseg
+# 
+# Top level modules:
+# 	snum_to_sseg
+# End time: 15:52:22 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules/disp_hex.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:52:22 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules/disp_hex.v 
+# -- Compiling module disp_hex
+# 
+# Top level modules:
+# 	disp_hex
+# End time: 15:52:22 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules/sseg_encoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:52:22 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules/sseg_encoder.v 
+# -- Compiling module SSeg
+# 
+# Top level modules:
+# 	SSeg
+# End time: 15:52:22 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/synchroniser.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:52:22 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/synchroniser.v 
+# -- Compiling module synchroniser
+# 
+# Top level modules:
+# 	synchroniser
+# End time: 15:52:22 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/debounce.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:52:23 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/debounce.v 
+# -- Compiling module debounce
+# 
+# Top level modules:
+# 	debounce
+# End time: 15:52:23 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/falling_edge_detector.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:52:23 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/falling_edge_detector.v 
+# -- Compiling module falling_edge_detector
+# 
+# Top level modules:
+# 	falling_edge_detector
+# End time: 15:52:23 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/timer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:52:23 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/timer.v 
+# -- Compiling module timer
+# -- Compiling module timer_base
+# 
+# Top level modules:
+# 	timer
+# End time: 15:52:23 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/enable_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:52:23 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/enable_gen.v 
+# -- Compiling module enable_gen
+# 
+# Top level modules:
+# 	enable_gen
+# End time: 15:52:23 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/counter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:52:23 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/counter.v 
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+# End time: 15:52:23 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/instruction_splitter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:52:23 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/instruction_splitter.v 
+# -- Compiling module instruction_splitter
+# 
+# Top level modules:
+# 	instruction_splitter
+# End time: 15:52:23 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/top.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:52:23 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/top.v 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:52:23 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/soc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:52:23 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/soc.v 
+# -- Compiling module soc
+# 
+# Top level modules:
+# 	soc
+# End time: 15:52:23 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/instruction_memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:52:23 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/instruction_memory.v 
+# -- Compiling module instruction_memory
+# 
+# Top level modules:
+# 	instruction_memory
+# End time: 15:52:23 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/cpu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:52:24 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/cpu.v 
+# -- Compiling module cpu
+# 
+# Top level modules:
+# 	cpu
+# End time: 15:52:24 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/controller.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:52:24 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/controller.v 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 15:52:24 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:52:24 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 15:52:24 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/register_file.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:52:24 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/register_file.v 
+# -- Compiling module register_file
+# 
+# Top level modules:
+# 	register_file
+# End time: 15:52:24 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/instruction_pointer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:52:24 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/instruction_pointer.v 
+# -- Compiling module instruction_pointer
+# 
+# Top level modules:
+# 	instruction_pointer
+# End time: 15:52:24 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/simulation {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/simulation/test_cpu_early_stage.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:52:24 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/simulation" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/simulation/test_cpu_early_stage.v 
+# -- Compiling module test_cpu_early_stage
+# 
+# Top level modules:
+# 	test_cpu_early_stage
+# End time: 15:52:24 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  test_cpu_early_stage
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" test_cpu_early_stage 
+# Start time: 15:52:25 on May 26,2022
+# Loading work.test_cpu_early_stage
+# Loading work.soc
+# Loading work.debounce
+# Loading work.synchroniser
+# Loading work.timer
+# Loading work.timer_base
+# Loading work.enable_gen
+# Loading work.counter
+# Loading work.instruction_memory
+# Loading work.cpu
+# Loading work.instruction_splitter
+# Loading work.controller
+# Loading work.alu
+# Loading work.register_file
+# Loading work.instruction_pointer
+# Loading work.falling_edge_detector
+# ** Warning: (vsim-3017) C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/simulation/test_cpu_early_stage.v(9): [TFMPC] - Too few port connections. Expected 11, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /test_cpu_early_stage/run File: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/soc.v
+# ** Warning: (vsim-3015) C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/simulation/test_cpu_early_stage.v(9): [PCDPC] - Port size (1) does not match connection size (32) for port 'turbo_mode'. The port definition is at: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/soc.v(10).
+#    Time: 0 ps  Iteration: 0  Instance: /test_cpu_early_stage/run File: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/soc.v
+# ** Warning: (vsim-3722) C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/simulation/test_cpu_early_stage.v(9): [TFMPC] - Missing connection for port 'gpo'.
+# ** Warning: (vsim-3722) C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/simulation/test_cpu_early_stage.v(9): [TFMPC] - Missing connection for port 'dval'.
+# ** Warning: (vsim-3722) C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/simulation/test_cpu_early_stage.v(9): [TFMPC] - Missing connection for port 'debug'.
+# ** Warning: (vsim-3722) C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/simulation/test_cpu_early_stage.v(9): [TFMPC] - Missing connection for port 'non_signed'.
+# ** Warning: (vsim-3015) C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/soc.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/debounce.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /test_cpu_early_stage/run/deb_reset File: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/debounce.v
+# ** Warning: (vsim-3015) C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/soc.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'resetn'. The port definition is at: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/debounce.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /test_cpu_early_stage/run/deb_reset File: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/debounce.v
+# ** Warning: (vsim-3015) C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/soc.v(48): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/debounce.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /test_cpu_early_stage/run/deb_turb File: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/debounce.v
+# ** Warning: (vsim-3015) C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/cpu.v(103): [PCDPC] - Port size (5) does not match connection size (8) for port 'a_addr'. The port definition is at: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/register_file.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /test_cpu_early_stage/run/core/register File: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/register_file.v
+# ** Warning: (vsim-3015) C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/cpu.v(103): [PCDPC] - Port size (5) does not match connection size (8) for port 'b_addr'. The port definition is at: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/register_file.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /test_cpu_early_stage/run/core/register File: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/register_file.v
+# ** Warning: (vsim-3015) C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/cpu.v(128): [PCDPC] - Port size (1) does not match connection size (8) for port 'alu_result'. The port definition is at: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/instruction_pointer.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /test_cpu_early_stage/run/core/instruct File: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/instruction_pointer.v
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Admin  Hostname: LAPTOP-0MO29O1Q  ProcessID: 11816
+#           Attempting to use alternate WLF file "./wlft7xvrb3".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft7xvrb3
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# instruction pointer is 00, displayed number is    0
+# instruction pointer is 00, displayed number is    0
+# instruction pointer is 01, displayed number is    0
+# instruction pointer is 02, displayed number is    0
+# instruction pointer is 03, displayed number is    0
+# instruction pointer is 04, displayed number is    0
+# instruction pointer is 05, displayed number is    0
+# instruction pointer is 06, displayed number is    0
+# instruction pointer is 07, displayed number is    0
+# instruction pointer is 08, displayed number is    0
+# instruction pointer is 09, displayed number is    0
+# instruction pointer is 08, displayed number is    0
+# instruction pointer is 09, displayed number is    0
+# instruction pointer is 08, displayed number is    0
+# instruction pointer is 09, displayed number is    0
+# instruction pointer is 08, displayed number is    0
+# instruction pointer is 09, displayed number is    0
+# instruction pointer is 08, displayed number is    0
+# instruction pointer is 09, displayed number is    0
+# instruction pointer is 08, displayed number is    0
+# instruction pointer is 09, displayed number is    0
+# instruction pointer is 08, displayed number is    0
+# instruction pointer is 09, displayed number is    0
+# instruction pointer is 08, displayed number is    0
+# instruction pointer is 09, displayed number is    0
+# instruction pointer is 08, displayed number is    0
+# instruction pointer is 09, displayed number is    0
+# instruction pointer is 08, displayed number is    0
+# instruction pointer is 09, displayed number is    0
+# instruction pointer is 08, displayed number is    0
+# instruction pointer is 09, displayed number is    0
+# instruction pointer is 08, displayed number is    0
+# instruction pointer is 09, displayed number is    0
+# instruction pointer is 08, displayed number is    0
+# instruction pointer is 09, displayed number is    0
+# instruction pointer is 08, displayed number is    0
+# instruction pointer is 09, displayed number is    0
+# instruction pointer is 08, displayed number is    0
+# instruction pointer is 09, displayed number is    0
+# instruction pointer is 08, displayed number is    0
+do computer_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules/disp_decimal.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:55:19 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules/disp_decimal.v 
+# -- Compiling module disp_decimal
+# 
+# Top level modules:
+# 	disp_decimal
+# End time: 15:55:19 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules/snum_to_sseg.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:55:20 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules/snum_to_sseg.v 
+# -- Compiling module snum_to_sseg
+# 
+# Top level modules:
+# 	snum_to_sseg
+# End time: 15:55:20 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules/disp_hex.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:55:20 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules/disp_hex.v 
+# -- Compiling module disp_hex
+# 
+# Top level modules:
+# 	disp_hex
+# End time: 15:55:20 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules/sseg_encoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:55:20 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/display_modules/sseg_encoder.v 
+# -- Compiling module SSeg
+# 
+# Top level modules:
+# 	SSeg
+# End time: 15:55:20 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/synchroniser.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:55:20 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/synchroniser.v 
+# -- Compiling module synchroniser
+# 
+# Top level modules:
+# 	synchroniser
+# End time: 15:55:20 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/debounce.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:55:20 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/debounce.v 
+# -- Compiling module debounce
+# 
+# Top level modules:
+# 	debounce
+# End time: 15:55:20 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/falling_edge_detector.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:55:20 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/falling_edge_detector.v 
+# -- Compiling module falling_edge_detector
+# 
+# Top level modules:
+# 	falling_edge_detector
+# End time: 15:55:21 on May 26,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/timer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:55:21 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/timer.v 
+# -- Compiling module timer
+# -- Compiling module timer_base
+# 
+# Top level modules:
+# 	timer
+# End time: 15:55:21 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/enable_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:55:21 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/enable_gen.v 
+# -- Compiling module enable_gen
+# 
+# Top level modules:
+# 	enable_gen
+# End time: 15:55:21 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/counter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:55:21 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/counter.v 
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+# End time: 15:55:21 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/instruction_splitter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:55:21 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/instruction_splitter.v 
+# -- Compiling module instruction_splitter
+# 
+# Top level modules:
+# 	instruction_splitter
+# End time: 15:55:21 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/top.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:55:21 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/top.v 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:55:21 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/soc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:55:21 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/soc.v 
+# -- Compiling module soc
+# 
+# Top level modules:
+# 	soc
+# End time: 15:55:22 on May 26,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/instruction_memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:55:22 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/instruction_memory.v 
+# -- Compiling module instruction_memory
+# 
+# Top level modules:
+# 	instruction_memory
+# End time: 15:55:22 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/cpu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:55:22 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/cpu.v 
+# -- Compiling module cpu
+# 
+# Top level modules:
+# 	cpu
+# End time: 15:55:22 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/controller.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:55:22 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/controller.v 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 15:55:22 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:55:22 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 15:55:22 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/register_file.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:55:22 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/register_file.v 
+# -- Compiling module register_file
+# 
+# Top level modules:
+# 	register_file
+# End time: 15:55:22 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/instruction_pointer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:55:22 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/instruction_pointer.v 
+# -- Compiling module instruction_pointer
+# 
+# Top level modules:
+# 	instruction_pointer
+# End time: 15:55:22 on May 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/simulation {C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/simulation/test_cpu_early_stage.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:55:22 on May 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/simulation" C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/simulation/test_cpu_early_stage.v 
+# -- Compiling module test_cpu_early_stage
+# 
+# Top level modules:
+# 	test_cpu_early_stage
+# End time: 15:55:23 on May 26,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  test_cpu_early_stage
+# End time: 15:55:26 on May 26,2022, Elapsed time: 0:03:01
+# Errors: 0, Warnings: 14
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" test_cpu_early_stage 
+# Start time: 15:55:26 on May 26,2022
+# Loading work.test_cpu_early_stage
+# Loading work.soc
+# Loading work.debounce
+# Loading work.synchroniser
+# Loading work.timer
+# Loading work.timer_base
+# Loading work.enable_gen
+# Loading work.counter
+# Loading work.instruction_memory
+# Loading work.cpu
+# Loading work.instruction_splitter
+# Loading work.controller
+# Loading work.alu
+# Loading work.register_file
+# Loading work.instruction_pointer
+# Loading work.falling_edge_detector
+# ** Warning: (vsim-3017) C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/simulation/test_cpu_early_stage.v(9): [TFMPC] - Too few port connections. Expected 11, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /test_cpu_early_stage/run File: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/soc.v
+# ** Warning: (vsim-3015) C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/simulation/test_cpu_early_stage.v(9): [PCDPC] - Port size (1) does not match connection size (32) for port 'turbo_mode'. The port definition is at: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/soc.v(10).
+#    Time: 0 ps  Iteration: 0  Instance: /test_cpu_early_stage/run File: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/soc.v
+# ** Warning: (vsim-3722) C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/simulation/test_cpu_early_stage.v(9): [TFMPC] - Missing connection for port 'gpo'.
+# ** Warning: (vsim-3722) C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/simulation/test_cpu_early_stage.v(9): [TFMPC] - Missing connection for port 'dval'.
+# ** Warning: (vsim-3722) C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/simulation/test_cpu_early_stage.v(9): [TFMPC] - Missing connection for port 'debug'.
+# ** Warning: (vsim-3722) C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/simulation/test_cpu_early_stage.v(9): [TFMPC] - Missing connection for port 'non_signed'.
+# ** Warning: (vsim-3015) C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/soc.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/debounce.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /test_cpu_early_stage/run/deb_reset File: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/debounce.v
+# ** Warning: (vsim-3015) C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/soc.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'resetn'. The port definition is at: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/debounce.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /test_cpu_early_stage/run/deb_reset File: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/debounce.v
+# ** Warning: (vsim-3015) C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/soc.v(48): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/debounce.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /test_cpu_early_stage/run/deb_turb File: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/debounce.v
+# ** Warning: (vsim-3015) C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/cpu.v(103): [PCDPC] - Port size (5) does not match connection size (8) for port 'a_addr'. The port definition is at: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/register_file.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /test_cpu_early_stage/run/core/register File: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/register_file.v
+# ** Warning: (vsim-3015) C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/cpu.v(103): [PCDPC] - Port size (5) does not match connection size (8) for port 'b_addr'. The port definition is at: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/register_file.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /test_cpu_early_stage/run/core/register File: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/register_file.v
+# ** Warning: (vsim-3015) C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/cpu.v(128): [PCDPC] - Port size (1) does not match connection size (8) for port 'alu_result'. The port definition is at: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/instruction_pointer.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /test_cpu_early_stage/run/core/instruct File: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/instruction_pointer.v
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Admin  Hostname: LAPTOP-0MO29O1Q  ProcessID: 11816
+#           Attempting to use alternate WLF file "./wlftkj165z".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftkj165z
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# instruction pointer is 00, displayed number is    0
+# instruction pointer is 00, displayed number is    0
+# instruction pointer is 01, displayed number is    0
+# instruction pointer is 02, displayed number is    0
+# instruction pointer is 03, displayed number is    0
+# instruction pointer is 04, displayed number is    0
+# instruction pointer is 05, displayed number is    0
+# instruction pointer is 06, displayed number is    0
+# instruction pointer is 07, displayed number is    0
+# instruction pointer is 08, displayed number is    0
+# instruction pointer is 0a, displayed number is    0
+# instruction pointer is 0b, displayed number is    0
+# instruction pointer is 0c, displayed number is   -1
+# instruction pointer is 0d, displayed number is   -1
+# instruction pointer is 0e, displayed number is   -1
+# instruction pointer is 0f, displayed number is   -1
+# instruction pointer is 10, displayed number is   -1
+# instruction pointer is 11, displayed number is   -1
+# instruction pointer is 12, displayed number is   -1
+# instruction pointer is 15, displayed number is   -1
+# instruction pointer is 16, displayed number is   -1
+# instruction pointer is 06, displayed number is   -1
+# instruction pointer is 07, displayed number is   -1
+# instruction pointer is 08, displayed number is   -1
+# instruction pointer is 09, displayed number is   -1
+# instruction pointer is 08, displayed number is   -1
+# instruction pointer is 09, displayed number is   -1
+# instruction pointer is 08, displayed number is   -1
+# instruction pointer is 09, displayed number is   -1
+# instruction pointer is 08, displayed number is   -1
+# instruction pointer is 09, displayed number is   -1
+# instruction pointer is 08, displayed number is   -1
+# instruction pointer is 09, displayed number is   -1
+# instruction pointer is 08, displayed number is   -1
+# instruction pointer is 09, displayed number is   -1
+# instruction pointer is 08, displayed number is   -1
+# instruction pointer is 09, displayed number is   -1
+# instruction pointer is 08, displayed number is   -1
+# instruction pointer is 09, displayed number is   -1
+# instruction pointer is 08, displayed number is   -1
+add wave -r /*
+restart
+# ** Warning: (vsim-3017) C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/simulation/test_cpu_early_stage.v(9): [TFMPC] - Too few port connections. Expected 11, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /test_cpu_early_stage/run File: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/soc.v
+# ** Warning: (vsim-3015) C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/simulation/test_cpu_early_stage.v(9): [PCDPC] - Port size (1) does not match connection size (32) for port 'turbo_mode'. The port definition is at: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/soc.v(10).
+#    Time: 0 ps  Iteration: 0  Instance: /test_cpu_early_stage/run File: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/soc.v
+# ** Warning: (vsim-3722) C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/simulation/test_cpu_early_stage.v(9): [TFMPC] - Missing connection for port 'gpo'.
+# ** Warning: (vsim-3722) C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/simulation/test_cpu_early_stage.v(9): [TFMPC] - Missing connection for port 'dval'.
+# ** Warning: (vsim-3722) C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/simulation/test_cpu_early_stage.v(9): [TFMPC] - Missing connection for port 'debug'.
+# ** Warning: (vsim-3722) C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/simulation/test_cpu_early_stage.v(9): [TFMPC] - Missing connection for port 'non_signed'.
+# ** Warning: (vsim-3015) C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/soc.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/debounce.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /test_cpu_early_stage/run/deb_reset File: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/debounce.v
+# ** Warning: (vsim-3015) C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/soc.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'resetn'. The port definition is at: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/debounce.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /test_cpu_early_stage/run/deb_reset File: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/debounce.v
+# ** Warning: (vsim-3015) C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/soc.v(48): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/debounce.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /test_cpu_early_stage/run/deb_turb File: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/auxillary/debounce.v
+# ** Warning: (vsim-3015) C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/cpu.v(103): [PCDPC] - Port size (5) does not match connection size (8) for port 'a_addr'. The port definition is at: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/register_file.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /test_cpu_early_stage/run/core/register File: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/register_file.v
+# ** Warning: (vsim-3015) C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/cpu.v(103): [PCDPC] - Port size (5) does not match connection size (8) for port 'b_addr'. The port definition is at: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/register_file.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /test_cpu_early_stage/run/core/register File: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/register_file.v
+# ** Warning: (vsim-3015) C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/cpu.v(128): [PCDPC] - Port size (1) does not match connection size (8) for port 'alu_result'. The port definition is at: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/instruction_pointer.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /test_cpu_early_stage/run/core/instruct File: C:/Users/Admin/Desktop/Long/_School/ELEN20006_2022_SM1/Project/Files/src/cpu/instruction_pointer.v
+run -all
+# instruction pointer is 00, displayed number is    0
+# instruction pointer is 00, displayed number is    0
+# instruction pointer is 01, displayed number is    0
+# instruction pointer is 02, displayed number is    0
+# instruction pointer is 03, displayed number is    0
+# instruction pointer is 04, displayed number is    0
+# instruction pointer is 05, displayed number is    0
+# instruction pointer is 06, displayed number is    0
+# instruction pointer is 07, displayed number is    0
+# instruction pointer is 08, displayed number is    0
+# instruction pointer is 0a, displayed number is    0
+# instruction pointer is 0b, displayed number is    0
+# instruction pointer is 0c, displayed number is   -1
+# instruction pointer is 0d, displayed number is   -1
+# instruction pointer is 0e, displayed number is   -1
+# instruction pointer is 0f, displayed number is   -1
+# instruction pointer is 10, displayed number is   -1
+# instruction pointer is 11, displayed number is   -1
+# instruction pointer is 12, displayed number is   -1
+# instruction pointer is 15, displayed number is   -1
+# instruction pointer is 16, displayed number is   -1
+# instruction pointer is 06, displayed number is   -1
+# instruction pointer is 07, displayed number is   -1
+# instruction pointer is 08, displayed number is   -1
+# instruction pointer is 09, displayed number is   -1
+# instruction pointer is 08, displayed number is   -1
+# instruction pointer is 09, displayed number is   -1
+# instruction pointer is 08, displayed number is   -1
+# instruction pointer is 09, displayed number is   -1
+# instruction pointer is 08, displayed number is   -1
+# instruction pointer is 09, displayed number is   -1
+# instruction pointer is 08, displayed number is   -1
+# instruction pointer is 09, displayed number is   -1
+# instruction pointer is 08, displayed number is   -1
+# instruction pointer is 09, displayed number is   -1
+# instruction pointer is 08, displayed number is   -1
+# instruction pointer is 09, displayed number is   -1
+# instruction pointer is 08, displayed number is   -1
+# instruction pointer is 09, displayed number is   -1
+# instruction pointer is 08, displayed number is   -1
+# End time: 17:23:13 on May 26,2022, Elapsed time: 1:27:47
+# Errors: 0, Warnings: 26

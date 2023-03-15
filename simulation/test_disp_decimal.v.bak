@@ -1,0 +1,39 @@
+`timescale  1ns/1ps
+
+module gen_test;
+	reg value, enable;
+	wire [6:0] disp_dec0,
+	wire [6:0] disp_dec1,
+	wire [6:0] disp_dec2,
+	wire [6:0] disp_dec3;
+
+
+	disp_decimal run(
+		.value(value), .enable(enable), 
+		.disp_dec0(disp_dec0), 
+		.disp_dec1(disp_dec1), 
+		.disp_dec2(disp_dec2), 
+		.disp_dec3(disp_dec3)
+	);
+	
+	initial begin 
+	value=0;
+	$strobe("%b",disp_dec3,,"%b",disp_dec2,,"%b",disp_dec1,,"%b",disp_dec0);
+	
+	#5 value=127;
+	$strobe("%b",disp_dec3,,"%b",disp_dec2,,"%b",disp_dec1,,"%b",disp_dec0);
+	
+	#5 value=-128;
+	$strobe("%b",disp_dec3,,"%b",disp_dec2,,"%b",disp_dec1,,"%b",disp_dec0);
+	
+	#5 value=43;
+	$strobe("%b",disp_dec3,,"%b",disp_dec2,,"%b",disp_dec1,,"%b",disp_dec0);
+	
+	#5 value=-12;
+	$strobe("%b",disp_dec3,,"%b",disp_dec2,,"%b",disp_dec1,,"%b",disp_dec0);
+	
+	#5 value=-1;
+	$strobe("%b",disp_dec3,,"%b",disp_dec2,,"%b",disp_dec1,,"%b",disp_dec0);
+	
+	end
+endmodule

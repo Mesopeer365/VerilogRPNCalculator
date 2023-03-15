@@ -1,0 +1,144 @@
+
+State Machine - |top|soc:system_on_chip|falling_edge_detector:KEY_loop[3].fall|timer:timer_hold|timer_base:timer_inst|state
+Name state.IDLE state.STOPPED state.COUNTING_DOWN 
+state.IDLE 0 0 0 
+state.COUNTING_DOWN 1 0 1 
+state.STOPPED 1 1 0 
+
+State Machine - |top|soc:system_on_chip|falling_edge_detector:KEY_loop[3].fall|debounce:deb|state
+Name state.ONE_ON state.ZERO_OFF state.ONE_OFF state.ZERO_ON 
+state.ZERO_ON 0 0 0 0 
+state.ONE_OFF 0 0 1 1 
+state.ZERO_OFF 0 1 0 1 
+state.ONE_ON 1 0 0 1 
+
+State Machine - |top|soc:system_on_chip|falling_edge_detector:KEY_loop[3].fall|debounce:deb|next_state
+Name next_state.ONE_ON next_state.ZERO_ON next_state.ONE_OFF next_state.ZERO_OFF 
+next_state.ZERO_OFF 0 0 0 0 
+next_state.ONE_OFF 0 0 1 1 
+next_state.ZERO_ON 0 1 0 1 
+next_state.ONE_ON 1 0 0 1 
+
+State Machine - |top|soc:system_on_chip|falling_edge_detector:KEY_loop[3].fall|debounce:deb|timer:timer_inst|timer_base:timer_inst|state
+Name state.IDLE state.STOPPED state.COUNTING_DOWN 
+state.IDLE 0 0 0 
+state.COUNTING_DOWN 1 0 1 
+state.STOPPED 1 1 0 
+
+State Machine - |top|soc:system_on_chip|falling_edge_detector:KEY_loop[2].fall|timer:timer_hold|timer_base:timer_inst|state
+Name state.IDLE state.STOPPED state.COUNTING_DOWN 
+state.IDLE 0 0 0 
+state.COUNTING_DOWN 1 0 1 
+state.STOPPED 1 1 0 
+
+State Machine - |top|soc:system_on_chip|falling_edge_detector:KEY_loop[2].fall|debounce:deb|state
+Name state.ONE_ON state.ZERO_OFF state.ONE_OFF state.ZERO_ON 
+state.ZERO_ON 0 0 0 0 
+state.ONE_OFF 0 0 1 1 
+state.ZERO_OFF 0 1 0 1 
+state.ONE_ON 1 0 0 1 
+
+State Machine - |top|soc:system_on_chip|falling_edge_detector:KEY_loop[2].fall|debounce:deb|next_state
+Name next_state.ONE_ON next_state.ZERO_ON next_state.ONE_OFF next_state.ZERO_OFF 
+next_state.ZERO_OFF 0 0 0 0 
+next_state.ONE_OFF 0 0 1 1 
+next_state.ZERO_ON 0 1 0 1 
+next_state.ONE_ON 1 0 0 1 
+
+State Machine - |top|soc:system_on_chip|falling_edge_detector:KEY_loop[2].fall|debounce:deb|timer:timer_inst|timer_base:timer_inst|state
+Name state.IDLE state.STOPPED state.COUNTING_DOWN 
+state.IDLE 0 0 0 
+state.COUNTING_DOWN 1 0 1 
+state.STOPPED 1 1 0 
+
+State Machine - |top|soc:system_on_chip|falling_edge_detector:KEY_loop[1].fall|timer:timer_hold|timer_base:timer_inst|state
+Name state.IDLE state.STOPPED state.COUNTING_DOWN 
+state.IDLE 0 0 0 
+state.COUNTING_DOWN 1 0 1 
+state.STOPPED 1 1 0 
+
+State Machine - |top|soc:system_on_chip|falling_edge_detector:KEY_loop[1].fall|debounce:deb|state
+Name state.ONE_ON state.ZERO_OFF state.ONE_OFF state.ZERO_ON 
+state.ZERO_ON 0 0 0 0 
+state.ONE_OFF 0 0 1 1 
+state.ZERO_OFF 0 1 0 1 
+state.ONE_ON 1 0 0 1 
+
+State Machine - |top|soc:system_on_chip|falling_edge_detector:KEY_loop[1].fall|debounce:deb|next_state
+Name next_state.ONE_ON next_state.ZERO_ON next_state.ONE_OFF next_state.ZERO_OFF 
+next_state.ZERO_OFF 0 0 0 0 
+next_state.ONE_OFF 0 0 1 1 
+next_state.ZERO_ON 0 1 0 1 
+next_state.ONE_ON 1 0 0 1 
+
+State Machine - |top|soc:system_on_chip|falling_edge_detector:KEY_loop[1].fall|debounce:deb|timer:timer_inst|timer_base:timer_inst|state
+Name state.IDLE state.STOPPED state.COUNTING_DOWN 
+state.IDLE 0 0 0 
+state.COUNTING_DOWN 1 0 1 
+state.STOPPED 1 1 0 
+
+State Machine - |top|soc:system_on_chip|falling_edge_detector:KEY_loop[0].fall|timer:timer_hold|timer_base:timer_inst|state
+Name state.IDLE state.STOPPED state.COUNTING_DOWN 
+state.IDLE 0 0 0 
+state.COUNTING_DOWN 1 0 1 
+state.STOPPED 1 1 0 
+
+State Machine - |top|soc:system_on_chip|falling_edge_detector:KEY_loop[0].fall|debounce:deb|state
+Name state.ONE_ON state.ZERO_OFF state.ONE_OFF state.ZERO_ON 
+state.ZERO_ON 0 0 0 0 
+state.ONE_OFF 0 0 1 1 
+state.ZERO_OFF 0 1 0 1 
+state.ONE_ON 1 0 0 1 
+
+State Machine - |top|soc:system_on_chip|falling_edge_detector:KEY_loop[0].fall|debounce:deb|next_state
+Name next_state.ONE_ON next_state.ZERO_ON next_state.ONE_OFF next_state.ZERO_OFF 
+next_state.ZERO_OFF 0 0 0 0 
+next_state.ONE_OFF 0 0 1 1 
+next_state.ZERO_ON 0 1 0 1 
+next_state.ONE_ON 1 0 0 1 
+
+State Machine - |top|soc:system_on_chip|falling_edge_detector:KEY_loop[0].fall|debounce:deb|timer:timer_inst|timer_base:timer_inst|state
+Name state.IDLE state.STOPPED state.COUNTING_DOWN 
+state.IDLE 0 0 0 
+state.COUNTING_DOWN 1 0 1 
+state.STOPPED 1 1 0 
+
+State Machine - |top|soc:system_on_chip|debounce:deb_turb|state
+Name state.ONE_ON state.ZERO_OFF state.ONE_OFF state.ZERO_ON 
+state.ZERO_ON 0 0 0 0 
+state.ONE_OFF 0 0 1 1 
+state.ZERO_OFF 0 1 0 1 
+state.ONE_ON 1 0 0 1 
+
+State Machine - |top|soc:system_on_chip|debounce:deb_turb|next_state
+Name next_state.ONE_ON next_state.ZERO_ON next_state.ONE_OFF next_state.ZERO_OFF 
+next_state.ZERO_OFF 0 0 0 0 
+next_state.ONE_OFF 0 0 1 1 
+next_state.ZERO_ON 0 1 0 1 
+next_state.ONE_ON 1 0 0 1 
+
+State Machine - |top|soc:system_on_chip|debounce:deb_turb|timer:timer_inst|timer_base:timer_inst|state
+Name state.IDLE state.STOPPED state.COUNTING_DOWN 
+state.IDLE 0 0 0 
+state.COUNTING_DOWN 1 0 1 
+state.STOPPED 1 1 0 
+
+State Machine - |top|soc:system_on_chip|debounce:deb_reset|state
+Name state.ONE_ON state.ZERO_OFF state.ONE_OFF state.ZERO_ON 
+state.ZERO_ON 0 0 0 0 
+state.ONE_OFF 0 0 1 1 
+state.ZERO_OFF 0 1 0 1 
+state.ONE_ON 1 0 0 1 
+
+State Machine - |top|soc:system_on_chip|debounce:deb_reset|next_state
+Name next_state.ONE_ON next_state.ZERO_ON next_state.ONE_OFF next_state.ZERO_OFF 
+next_state.ZERO_OFF 0 0 0 0 
+next_state.ONE_OFF 0 0 1 1 
+next_state.ZERO_ON 0 1 0 1 
+next_state.ONE_ON 1 0 0 1 
+
+State Machine - |top|soc:system_on_chip|debounce:deb_reset|timer:timer_inst|timer_base:timer_inst|state
+Name state.IDLE state.STOPPED state.COUNTING_DOWN 
+state.IDLE 0 0 0 
+state.COUNTING_DOWN 1 0 1 
+state.STOPPED 1 1 0 
